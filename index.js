@@ -62,7 +62,9 @@ internals.GoodColorterm.prototype._transform = function (object, encoding, next)
       // console.dir(object);
   // }
 
-  console[object.event].apply(console, arguments);
+  if (console[object.event]) {
+    console[object.event].apply(console, arguments);
+  }
 
   return next();
 
