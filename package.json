@@ -13,6 +13,9 @@
   "author": "Austris Landmanis <austris@chevron.lv>",
   "license": "MIT",
   "dependencies": {
-    "colorterm": "cyanpunk/colorterm"
+    "colorterm": "cyanpunk/colorterm",
+    "hoek": "^2.14.0",
+    "moment": "^2.10.3",
+    "through2": "^2.0.0"
   }
 }
