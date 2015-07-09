@@ -1,0 +1,16 @@
+{
+  "name": "good-colorterm",
+  "version": "0.1.0",
+  "description": "Reporter for Good logger w/ Colorterm output",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cyanpunk/good-colorterm"
+  },
+  "author": "Austris Landmanis <austris@chevron.lv>",
+  "license": "MIT",
+  "dependencies": {}
+}
